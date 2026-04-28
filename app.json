@@ -1,27 +1,29 @@
 {
-  "expo": {
-    "name": "AIjia Smart",
-    "slug": "ai-jia",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
-    "splash": {
-      "backgroundColor": "#1a0533"
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#1a0533"
-      },
-      "package": "com.aijia.smart"
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     },
-    "ios": {
-      "bundleIdentifier": "com.aijia.smart"
+    "production": {
+      "distribution": "store"
+    }
+  },
+  "submit": {
+    "preview": {
+      "android": {}
     },
-    "extra": {
-      "eas": {
-        "projectId": "e82f4553-1af5-4dda-bb83-ddeb6f40d284"
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./google-services.json"
       }
     }
   }
