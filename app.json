@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AIjia Smart",
-    "slug": "aijia-smart",
+    "slug": "ai-jia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,7 @@
     },
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1a0533"
       },
       "package": "com.aijia.smart"
@@ -20,7 +21,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "aijia-smart"
+        "projectId": "e82f4553-1af5-4dda-bb83-ddeb6f40d284"
       }
     }
   }
