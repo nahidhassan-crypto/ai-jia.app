@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AIjia Smart",
-    "slug": "aijia-ios",        ← change to match project name
+    "slug": "aijia-ios",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
