@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AIjia Smart",
-    "slug": "ai-jia",
+    "slug": "aijia-ios",        ← change to match project name
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,8 +21,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "bf29cf0e-3792-49ad-928c-a7661ff91330"
-      }
+        "projectId": "E82f4553-1af5-4dda-bb83-ddeb6f40d284"      }
     }
   }
 }
